@@ -1,2 +1,2 @@
 # Peleg
-Peleg - A simple messaging processor for AMQP
+A simple messaging processor for AMQP
