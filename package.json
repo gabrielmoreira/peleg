@@ -1,7 +1,7 @@
 {
   "name": "peleg",
   "description": "Peleg - A simple messaging processor for AMQP",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "author": "Gabriel Moreira <gabrielmoreira@gmail.com>",
   "keywords": [
     "rabbitmq",
