@@ -1,0 +1,39 @@
+{
+  "name": "peleg",
+  "description": "Peleg - A simple messaging processor for AMQP",
+  "version": "0.3.0",
+  "author": "Gabriel Moreira <gabrielmoreira@gmail.com>",
+  "keywords": [
+    "rabbitmq",
+    "amqp",
+    "job",
+    "queue",
+    "event"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.3.1",
+    "bluebird": "^2.9.12",
+    "debug": "^2.1.1",
+    "extend": "^2.0.1"
+  },
+  "devDependencies": {
+    "better-assert": "^1.0.2",
+    "mocha": "^2.1.0"
+  },
+  "browserDependencies": {},
+  "scripts": {
+    "test": "mocha --async-only test/*.test.js"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gabrielmoreira/peleg.git"
+  },
+  "publishConfig": {
+    "tag": "unstable"
+  }
+}
